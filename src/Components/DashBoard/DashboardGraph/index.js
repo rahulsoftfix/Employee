@@ -16,20 +16,24 @@ import {
 
 const data = [
   {
-    name: "Free Trail",
-    Subscriptions: 2780,
+    name: "MARCH",
+    Demo: 500,
   },
   {
-    name: "Basic",
-    Subscriptions: 4000,
+    name: "APRIL",
+    Demo: 220,
   },
   {
-    name: "Business",
-    Subscriptions: 3000,
+    name: "MAY",
+    Demo: 700,
   },
   {
-    name: "Enterprise",
-    Subscriptions: 2000,
+    name: "JUNE",
+    Demo: 1000,
+  },
+  {
+    name: "JULY",
+    Demo: 900,
   },
 ];
 const data2 = [
@@ -71,7 +75,7 @@ const DashboardGraph = () => {
       <div className="row my-3">
         <div className="col-12">
           <div className="card-body">
-            <h4 className="card-sub-title">SUBSCRIBERS</h4>
+            <h4 className="card-sub-title">Demos</h4>
           </div>
           <ResponsiveContainer width="100%" height={400}>
             <ComposedChart
@@ -89,19 +93,19 @@ const DashboardGraph = () => {
               <XAxis dataKey="name"></XAxis>
               <YAxis
                 label={{
-                  value: "SUBSCRIPTIONS",
+                  value: "DEMOS",
                   angle: -90,
                   position: "insideLeft",
                 }}
               />
               <Tooltip />
 
-              <Bar dataKey="Subscriptions" fill="#003D92" barSize={20} />
-              <Line type="monotone" dataKey="Subscriptions" stroke="#FEAA16" />
+              <Bar dataKey="Demo" fill="#003D92" barSize={20} />
+              <Line type="monotone" dataKey="Demo" stroke="#FEAA16" />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
-        <div className="col-12">
+        {/* <div className="col-12">
           <div className="card-body">
             <h4 className="card-sub-title">REVENUE</h4>
           </div>
@@ -139,7 +143,7 @@ const DashboardGraph = () => {
               <Bar dataKey="Enterprise" fill="#FEAA15" />
             </BarChart>
           </ResponsiveContainer>
-        </div>
+        </div> */}
       </div>
     </>
   );

@@ -50,7 +50,7 @@ const DashboardHead = () => {
                 <div className="card-body">
                   <div className="">
                     <h4 className="card-sub-title  mb-3">
-                      Subscription &nbsp;
+                      Call Back Request &nbsp;
                     </h4>
                   </div>
                   <div className="col-xl-12">
@@ -72,8 +72,8 @@ const DashboardHead = () => {
                                         </div>
                                       </div>
                                       <div className="anta-data">
-                                        <h5>Total</h5>
-                                        <h3>55000</h3>
+                                        <h5>Request Call</h5>
+                                        <h3>50</h3>
                                       </div>
                                     </div>
                                   </div>
@@ -89,8 +89,8 @@ const DashboardHead = () => {
                                         </div>
                                       </div>
                                       <div className="anta-data">
-                                        <h5>Free Trial</h5>
-                                        <h3>26780</h3>
+                                        <h5>Recived Call</h5>
+                                        <h3>42</h3>
                                       </div>
                                     </div>
                                   </div>
@@ -106,8 +106,8 @@ const DashboardHead = () => {
                                         </div>
                                       </div>
                                       <div className="anta-data">
-                                        <h5>Basic</h5>
-                                        <h3>3220</h3>
+                                        <h5>Pending Call</h5>
+                                        <h3>8</h3>
                                       </div>
                                     </div>
                                   </div>
@@ -123,8 +123,8 @@ const DashboardHead = () => {
                                         </div>
                                       </div>
                                       <div className="anta-data">
-                                        <h5>Business</h5>
-                                        <h3>13000</h3>
+                                        <h5>Reject Call</h5>
+                                        <h3>2</h3>
                                       </div>
                                     </div>
                                   </div>
@@ -140,8 +140,8 @@ const DashboardHead = () => {
                                         </div>
                                       </div>
                                       <div className="anta-data">
-                                        <h5>Enterprise</h5>
-                                        <h3>12000</h3>
+                                        <h5>Resolve Call</h5>
+                                        <h3>40</h3>
                                       </div>
                                     </div>
                                   </div>
