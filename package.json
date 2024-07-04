@@ -1,0 +1,46 @@
+{
+  "name": "quickbid",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4300",
+    "build": "next build",
+    "start": "next start -p 3003",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^41.2.1",
+    "@ckeditor/ckeditor5-react": "^6.2.0",
+    "antd": "^5.12.8",
+    "axios": "^1.6.7",
+    "bootstrap": "^5.3.2",
+    "ckeditor5": "^41.2.1",
+    "ckeditor5-custom-build": "^0.0.6",
+    "date-fns": "^3.6.0",
+    "datetime": "^0.0.3",
+    "froala-editor": "^4.2.0",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.5",
+    "jspdf": "^2.5.1",
+    "next": "14.0.4",
+    "primereact": "^10.5.0",
+    "react": "^18",
+    "react-big-calendar": "^1.8.6",
+    "react-dom": "^18",
+    "react-icons": "^4.12.0",
+    "react-input-mask": "^2.0.4",
+    "react-quill": "^2.0.0",
+    "react-switch": "^7.0.0",
+    "react-to-print": "^2.15.1",
+    "react-toastify": "^10.0.4",
+    "recharts": "^2.12.3",
+    "suneditor": "^2.45.1",
+    "suneditor-react": "^3.6.1",
+    "swiper": "^11.0.5",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}

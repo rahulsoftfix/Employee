@@ -1,0 +1,141 @@
+.cardOne:hover {
+  background-color: gray;
+  color: white;
+}
+.cardOneIcon {
+  background-color: gray;
+  color: white;
+}
+.cardOne:hover .cardOneIcon {
+  background-color: white;
+  color: gray;
+}
+.cardOne:hover h5 {
+  color: white;
+}
+.cardOne:hover h3 {
+  color: white;
+}
+.cardOne h3 {
+  color: gray;
+}
+
+/* / card two / */
+
+.cardTwo:hover {
+  background-color: purple;
+  color: white;
+}
+.cardTwoIcon {
+  background-color: purple;
+  color: white;
+}
+.cardTwo:hover .cardTwoIcon {
+  background-color: white;
+  color: purple;
+}
+.cardTwo:hover h5 {
+  color: white;
+}
+.cardTwo:hover h3 {
+  color: white;
+}
+.cardTwo h3 {
+  color: purple;
+}
+
+/* / card three / */
+
+.cardThree:hover {
+  background-color: #ffad26;
+  color: white;
+}
+.cardThreeIcon {
+  background-color: #ffad26;
+  color: white;
+}
+.cardThree:hover .cardThreeIcon {
+  background-color: white;
+  color: #ffad26;
+}
+.cardThree:hover h5 {
+  color: white;
+}
+.cardThree:hover h3 {
+  color: white;
+}
+.cardThree h3 {
+  color: #ffad26;
+}
+
+/* / card four / */
+
+.cardFour:hover {
+  background-color: #003d92;
+  color: white;
+}
+.cardFourIcon {
+  background-color: #003d92;
+  color: white;
+}
+.cardFour:hover .cardFourIcon {
+  background-color: white;
+  color: #003d92;
+}
+.cardFour:hover h5 {
+  color: white;
+}
+.cardFour:hover h3 {
+  color: white;
+}
+.cardFour h3 {
+  color: #003d92;
+}
+
+/* / card five / */
+
+.cardFive:hover {
+  background-color: green;
+  color: white;
+}
+.cardFiveIcon {
+  background-color: green;
+  color: white;
+}
+.cardFive:hover .cardFiveIcon {
+  background-color: white;
+  color: green;
+}
+.cardFive:hover h5 {
+  color: white;
+}
+.cardFive:hover h3 {
+  color: white;
+}
+.cardFive h3 {
+  color: green;
+}
+
+/* / card six / */
+
+.cardSix:hover {
+  background-color: red;
+  color: white;
+}
+.cardSixIcon {
+  background-color: red;
+  color: white;
+}
+.cardSix:hover .cardSixIcon {
+  background-color: white;
+  color: red;
+}
+.cardSix:hover h5 {
+  color: white;
+}
+.cardSix:hover h3 {
+  color: white;
+}
+.cardSix h3 {
+  color: red;
+}
